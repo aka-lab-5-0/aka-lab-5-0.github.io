@@ -1,0 +1,116 @@
+.page-header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6)), url('../images/baby-top.jpg')
+}
+
+.header-logo-large {
+    height: 50vh;
+    min-height: 300px;
+    max-height: 500px;
+}
+
+.header-logo-small {
+    height: 5em;
+    display: inline;
+}
+
+.project-name {
+    font-size: 3em;
+    font-weight: bold;
+    color: #a8630e;
+    display: inline;
+}
+
+.main-content {
+    margin-top: 2em;
+}
+
+.main-content h1 {
+    border-bottom: 2px solid #ff8c00;
+}
+
+.main-content h2::before {
+    content: "■";
+    color: #ff8c00;
+    margin-right: 0.5em;
+}
+
+.main-content section h1 {
+    border-bottom: none;
+}
+
+.main-content section h2::after {
+    content: "■";
+    color: #ff8c00;
+    margin-left: 0.5em;
+}
+
+nav {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 2em;
+    border-bottom: 2px solid #eee;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+.page-selected {
+    color: #a8630e;
+}
+
+section h1 {
+    color: #111111 !important;
+    font-size: 2em;
+    font-weight: bold !important;
+}
+
+section.concept {
+    background-image: url('../images/baby-smile.jpg');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow: inset 0 0 15px 15px white; /* ぼかし色と範囲を調整 */
+    background-clip: content-box;
+}
+
+section.concept .description {
+    padding: 64px 32px;
+    margin-right: 250px;
+    background-image: linear-gradient(to right, #ffffff, #ffffff, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.0));
+}
+
+.detail {
+    text-align: left;
+}
+
+section.sub {
+    margin-top: 2em;
+}
+
+section.sub h2 {
+    text-align: center;
+}
+
+section.sub .detail {
+    text-align: right;
+}
+
+section h2 {
+    color: #111111 !important;
+    border-bottom: 1px solid #eee;
+}
+
+footer.site-footer {
+    text-align: center;
+}

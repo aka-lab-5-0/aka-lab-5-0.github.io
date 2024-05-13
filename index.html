@@ -1,0 +1,66 @@
+---
+layout: default
+title: トップページ
+header:
+    top: true
+items:
+  - url: about.html
+    title: 赤ちゃんラボ5.0について
+  - url: news.html
+    title: ニュース
+  - url: join.html
+    title: ご協力のお願い
+
+---
+
+<section class="concept">
+    <div class="description">
+        <h1>すべての子どもを笑顔にする！</h1>
+        <p>
+            赤ちゃんラボ5.0は、発達認知科学的視座から、子どもたちが幸せに暮らし、成長し、
+            社会の一員として活躍していく上で必要となる研究や商品、社会基盤について探求します。
+        </p>
+        <p>        
+            子どもたちの笑顔は養育者に限らず社会全体に活力を与え、豊かな未来社会を創生する上で必要不可欠です。
+        </p>
+        <p>
+            「すべての子どもを笑顔にする！」は、単なるスローガンではなく、長期的に取得される科学的データに基づいて実現します。
+        </p>
+        <div class="detail">
+            <a href="about.html">一般社団法人 赤ちゃんラボ5.0について</a>
+        </div>
+    </div>
+</section>
+
+<section class="sub">
+    <h2>
+        最新情報
+    </h2>
+    <ul>
+        {% for post in site.posts limit: 2 %}
+        <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="detail">
+        <a href="news.html">ニュース</a>
+    </div>
+</section>
+
+<section class="sub">
+    <h2>
+        ご協力のお願い
+    </h2>
+    <ul>
+        <li>
+            <a href="join-person.html">個人の方へ</a>
+        </li>
+        <li>
+            <a href="join-organization.html">法人の方へ</a>
+        </li>
+    </ul>
+    <div class="detail">
+        <a href="join.html">ご協力のお願い</a>
+    </div>
+</section>
