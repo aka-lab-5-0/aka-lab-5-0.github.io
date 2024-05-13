@@ -21,7 +21,7 @@
 title: 一般社団法人 赤ちゃんラボ5.0
 #description: >- # this means to ignore newlines until "baseurl:"
 #  赤ちゃんラボ5.0は現在設立準備中です...
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/aka-lab-5-0.github.io" # the subpath of your site, e.g. /blog
 url: "https://aka-lab.jp" # the base hostname & protocol for your site, e.g. http://example.com
 
 repository: aka-lab-5-0/aka-lab-5-0.github.io
