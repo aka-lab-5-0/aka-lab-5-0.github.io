@@ -1,0 +1,29 @@
+---
+layout: base
+---
+
+<header class="page-header" role="banner">
+  {% if page.header.top %}
+    <img class="header-logo-large" src="{{ "/assets/images/logo-large.png" | relative_url }}">
+  {% else %}
+    <a href="{{ "/index.html" | relative_url }}"><img class="header-logo-small" src="{{ "/assets/images/logo-small.png" | relative_url }}"></a>
+    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+  {% endif %}
+  <nav>
+    <ul>
+      {% for p in page.items %}
+        {% if p.url %}
+          <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+        {% else %}
+          <li><span class="page-selected">{{ p.title }}</span></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+
+<main id="content" class="main-content home-content" role="main">
+
+  {{ content }}
+</main>

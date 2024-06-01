@@ -2,6 +2,8 @@
 layout: default
 title: ニュース
 items:
+  - url: index.html
+    title: トップページ
   - url: about.html
     title: 赤ちゃんラボ5.0について
   - title: ニュース
