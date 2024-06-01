@@ -14,7 +14,7 @@ layout: base
     <ul>
       {% for p in page.items %}
         {% if p.url %}
-          <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+          <li class="{{ p.class }}"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
         {% else %}
           <li><span class="page-selected">{{ p.title }}</span></li>
         {% endif %}

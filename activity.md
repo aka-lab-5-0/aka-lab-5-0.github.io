@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 研究者の方へ - ご協力のお願い
+title: 活動情報/資料
 items:
   - url: index.html
     title: トップページ
@@ -8,10 +8,9 @@ items:
     title: 赤ちゃんラボ5.0について
   - url: news.html
     title: ニュース
-  - url: activity.html
-    title: 活動情報/資料
-    class: detail
-  - title: ご協力のお願い
+  - title: 活動情報/資料
+  - url: join.html
+    title: ご協力のお願い
   - url: faq.html
     title: FAQ(よくあるご質問)
     class: detail
@@ -19,6 +18,6 @@ items:
     title: お問い合わせ
 ---
 
-# 研究者の方へ - ご協力のお願い
+# 活動情報/資料
 
 現在準備中です。
