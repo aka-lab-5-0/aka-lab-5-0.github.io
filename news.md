@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 一般社団法人 赤ちゃんラボ5.0について
+title: ニュース
 items:
   - url: about.html
     title: 赤ちゃんラボ5.0について
