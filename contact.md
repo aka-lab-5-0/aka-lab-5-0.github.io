@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ニュース
+title: お問い合わせ
 items:
   - url: index.html
     title: トップページ
