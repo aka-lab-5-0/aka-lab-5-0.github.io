@@ -87,6 +87,11 @@ footer.site-footer {
     color: #888;
 }
 
+.contact-notice {
+    color: #888;
+    font-size: 0.9rem;
+}
+
 .contact-content {
     width: 100%;
     height: 8em;

@@ -27,7 +27,7 @@ items:
 
   <h2>Eメールアドレス</h2>
 
-  <input type="text" name="entry.683645190" placeholder="あなたのEメールアドレス" class="contact-email">
+  <input type="email" name="entry.683645190" placeholder="あなたのEメールアドレス" class="contact-email">
   <p class="contact-description">
     事務局からお問い合わせに返信するために使用いたします。@aka-lab.jpからのメールを受信できるように設定してください。
   </p>
@@ -41,8 +41,10 @@ items:
   </p>
 
   <p>
-    記入が完了したら、送信ボタンを押すと、お問い合わせ内容が送信されます。<br/>
-    お問い合わせの管理にはGoogleフォームを使用しています。送信ボタンを押すと、Googleフォームの画面に移動します。
+    記入が完了したら、送信ボタンを押すと、お問い合わせ内容が送信されます。担当者より、3〜4営業日以内に内容を確認の上、返信させていただきます。
+  </p>
+  <p class="contact-notice">
+    ※お問い合わせの管理にはGoogleフォームを使用しています。送信ボタンを押すと、Googleフォームの画面に移動します。
   </p>
   <div class="contact-submit-container">
     <input type="submit" value="送信" class="contact-submit">
