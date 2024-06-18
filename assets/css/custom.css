@@ -124,3 +124,13 @@ footer.site-footer {
 .personary-android {
     height: 64px !important;
 }
+
+.event-detail {
+    margin-top: -1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.event-notice {
+    color: #888;
+}
