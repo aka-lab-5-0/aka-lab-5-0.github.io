@@ -6,7 +6,8 @@ items:
     title: トップページ
   - url: about.html
     title: 赤ちゃんラボ5.0について
-  - title: ニュース
+  - url: news.html
+    title: ニュース
   - url: activity.html
     title: 活動情報/資料
     class: detail
