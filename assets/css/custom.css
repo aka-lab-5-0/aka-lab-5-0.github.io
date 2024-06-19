@@ -104,3 +104,33 @@ footer.site-footer {
 .contact-submit {
     margin-top: 1em;
 }
+
+.privacy-policy-date {
+    color: #888;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.personary-app-badges {
+    display: flex;
+    align-items: center;
+}
+
+.personary-app-badges img {
+    height: 48px;
+    margin: 0 0.5em;
+}
+
+.personary-android {
+    height: 64px !important;
+}
+
+.event-detail {
+    margin-top: -1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.event-notice {
+    color: #888;
+}
