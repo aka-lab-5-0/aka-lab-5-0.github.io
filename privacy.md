@@ -105,4 +105,4 @@ items:
 ## 8. 個人情報に関する問合せ先
 
 一般社団法人　赤ちゃんラボ5.0　事務局
-[お問い合わせページ](https://aka-lab.jp/contact.html)
+[お問い合わせページ](contact.html)
