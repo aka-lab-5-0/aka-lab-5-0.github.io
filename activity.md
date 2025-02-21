@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 活動情報/資料
+title: 活動情報
 items:
   - url: index.html
     title: トップページ
@@ -8,7 +8,7 @@ items:
     title: 赤ちゃんラボ5.0について
   - url: news.html
     title: ニュース
-  - title: 活動情報/資料
+  - title: 活動情報
   - url: join.html
     title: ご協力のお願い
   - url: faq.html
@@ -18,6 +18,14 @@ items:
     title: お問い合わせ
 ---
 
-# 活動情報/資料
+# 活動情報
 
-現在準備中です。
+## 研究部門
+
+- 研究テーマ名［対象年齢：X〜Xヶ月／歳］
+
+## 社会連携部門
+
+
+
+
