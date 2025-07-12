@@ -61,12 +61,25 @@ items:
 
 以上の内容についてご了承いただけましたら、[こちらのフォーム](https://forms.gle/yobyKBDBQTmP3a136)より参加登録をお願いいたします。
 
+<div class="join-qr-code">
+  <img src="/assets/images/qr-person-form.png" alt="QRコード: 赤ちゃんラボ5.0　参加登録フォーム" width="200">
+</div>
+
 ご登録いただいたメールアドレス宛に、調査の依頼や関連イベントのご案内などを送らせていただきます。
 
 「パーソナルデータストア」の設定方法は、調査にご参加いただく際にその都度ご案内させていただきますが、ご興味のある方は[パーソナルデータストアの設定方法](personary.html)もぜひご覧ください。
 
 どうぞよろしくお願いいたします。
 
+----
+
+
+<div class="join-qr-code">
+  <div>
+    このページを別のデバイスでご覧になりたい方は、以下のQRコードを読み取ってください。
+  </div>
+  <img src="/assets/images/qr-join-person.png" alt="QRコード: お子様(保護者)の方へ" width="200">
+</div>
 
 ----
 
