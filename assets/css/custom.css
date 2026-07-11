@@ -131,6 +131,74 @@ footer.site-footer {
     margin-bottom: 1em;
 }
 
+details.talk {
+    margin: 0;
+}
+
+details.talk > summary {
+    display: block;
+    list-style: none;
+    cursor: pointer;
+    color: inherit;
+    padding: 0.15em 0;
+}
+
+details.talk > summary .talk-title {
+    display: block;
+    padding-left: 3em;
+}
+
+details.talk > summary:hover {
+    background: rgba(30, 107, 184, 0.06);
+}
+
+details.talk > summary::-webkit-details-marker {
+    display: none;
+}
+
+details.talk > summary .more {
+    margin-left: 0.4em;
+    color: #1e6bb8;
+    font-size: 0.7em;
+}
+
+details.talk > summary .talk-title::after {
+    content: "";
+    display: inline-block;
+    width: 0.35em;
+    height: 0.35em;
+    margin-left: 0.3em;
+    border: solid #1e6bb8;
+    border-width: 0.12em 0.12em 0 0;
+    transform: rotate(45deg);
+    transition: transform 0.15s ease;
+    vertical-align: middle;
+    position: relative;
+    top: -0.1em;
+    font-size: 0.7em;
+}
+
+details.talk[open] > summary .talk-title::after {
+    transform: rotate(135deg);
+    top: 0.05em;
+}
+
+.talk-abstract {
+    margin: 0.5em 0 0.7em 2em;
+}
+
+.main-content p.prow {
+    margin: 0;
+    padding: 0.15em 0;
+}
+
 .event-notice {
     color: #888;
+}
+
+.main-content h3.session-header {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid #ccc;
 }
