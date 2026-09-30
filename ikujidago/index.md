@@ -6,6 +6,8 @@ permalink: /ikujidago/
 published: true
 items:
   - title: 育児だGO
+  - url: /ikujidago/guide.html
+    title: 使い方
   - url: /ikujidago/terms.html
     title: 利用規約
   - url: /ikujidago/privacy.html

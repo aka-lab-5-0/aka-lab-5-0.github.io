@@ -7,6 +7,8 @@ published: true
 items:
   - url: /ikujidago/
     title: 育児だGO
+  - url: /ikujidago/guide.html
+    title: 使い方
   - title: 利用規約
   - url: /ikujidago/privacy.html
     title: プライバシーポリシー
