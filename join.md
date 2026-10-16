@@ -66,7 +66,7 @@ items:
 
 - [お子様(保護者)の方へ](join-person.html)（調査への参加を希望される方）
 - [研究者の方へ](join-researcher.html)（調査の実施を検討されている研究者の方）
-- [法人の方へ](join-organization.html)（調査の実施を検討されている法人の方）
+- [法人の方へ](join-organization.html)（当法人の活動にご関心をお持ちの法人の方）
 
 
 
