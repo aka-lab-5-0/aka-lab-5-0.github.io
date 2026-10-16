@@ -18,6 +18,10 @@
     margin-top: 2em;
 }
 
+.list-order-note {
+    margin-left: 40px;
+}
+
 .main-content h1 {
     border-bottom: 2px solid #ff8c00;
 }
